@@ -1,0 +1,158 @@
+/***************TAG SELECTORS***************/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(142, 176, 187);
+    text-align: center;
+}
+
+h1{
+    color: #143774;
+    font-family: 'Lora', serif;
+    line-height: 2;
+}
+h2{
+    color: #143774;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    text-align: center;
+    margin: 2em auto;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2;
+}
+
+a{
+    font-family: 'Ubuntu', sans-serif;
+    color: #143774;
+    text-decoration: none;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+li{
+    list-style: none;
+}
+
+/***************CLASS SELECTORS***************/
+.circular{
+    border-radius: 50%;
+    margin: 0 auto;
+} 
+
+
+.bist{
+    margin: 2em auto;
+    text-align: center;
+}
+
+.list{
+    text-align: center;
+}
+
+.blink{
+    margin-left: 2em; 
+}
+
+.intro{
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.footballedu{
+    width: 50%;
+    margin: 150px auto;
+    text-align: right;
+}
+
+
+.football{
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: left;
+}
+
+.edu{
+    width: 30%;
+    float: right;
+    margin-left: 2em;
+}
+
+.soccer{
+    float: left;
+    margin-right: 2em;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wins{
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: right;
+}
+
+.ball{
+    width: 30%;
+    float: right;
+    margin-left: 2em;
+}
+
+a:hover,
+a:focus{
+    color: #1792d2;
+}
+
+.topper-cloud{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    right: 100px;
+    bottom: 0.5px;
+
+}
+
+.bot-cloud{
+    position: relative;
+    right: 400px;
+    bottom: 70px;
+}
+
+.img-and-text{
+    padding-top: 10em;
+}
+
+.img-text{
+    margin:50px auto 50px auto;
+}
+
+.footer-link{
+    margin-top: 150px;
+    padding: 3em 0 3em 0;
+    background-color: rgb(42, 104, 124);
+}
